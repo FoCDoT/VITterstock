@@ -1,0 +1,143 @@
+.container-fluid{
+    padding: 0px;
+}
+.svg-logo {
+    width:119.95px; height:39.296px;
+}
+.blue-box {
+    background-color:#222222 ;
+}
+pre.for-pre {
+    background-color: #046fc2;
+    border-color:#046fc2;
+}
+.post {
+    background-color:#0262ad;
+    border-radius: 10%;
+}
+.post-color {
+    color: white;
+}
+.lang-div{
+    display: inline;
+}.font-1{
+    font-weight:bolder;
+    color: white;
+}
+.font-2{
+    font-weight:bolder;
+    color: white;
+}
+.svg-eng{
+    position:relative;
+    top:3px;
+    right: -5px;
+}
+.svg-hin{
+    position:relative;
+    top:-4px;
+    left: -7px;
+}.english{
+    opacity: 0.3;
+}
+.hindi {
+    opacity: 0.3;
+}
+
+.act {
+    opacity: 1 !important;
+}
+
+.logo {
+    margin-top: 5px;
+    padding-left: 20px;eng
+    float: left;
+}
+
+.ulList>li{
+    color: white;
+    list-style: none;
+    display: inline;
+}
+.btn-default{
+    color:#384650;
+}
+.add-and-social-post{
+    margin-top: 15px;
+    margin-left: -40px;
+    float: right;
+}
+.ulList>li>a{
+    color: white;
+}
+.submit-post{
+    background-color: #0262ad;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+.right-box{
+    float: right;
+}
+.second-row {
+    background-color: #384650;
+    height: 20px;
+}
+.ulList1{
+    list-style: none;
+}
+.ulList1>li>a{
+    background-color: white;
+    color: black;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+.ulList1>li>a{
+    color: black;
+}
+.logo1 {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.tags {
+    margin-top: 10px;
+}
+.second-bar{
+    float: right;
+}
+a:hover {
+    text-decoration-line:none;
+}
+.ADVERTISE {
+    display: inline;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.twitter {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.witty {
+ background-color: black;
+}
+.row{margin:0px;}
+@media only screen and (max-width: 767px){
+.svg-logo {
+    width: 94.95px;
+    height: 57px;
+}
+.eng-hin {
+    margin-top: 15px;
+    margin-left: 135px;
+    float: left;
+}
+}
+.vitterstock{
+    width: 170px;
+}

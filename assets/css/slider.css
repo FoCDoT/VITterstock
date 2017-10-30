@@ -1,0 +1,30 @@
+.previousBtn {
+    position: absolute;
+    top: 50%;
+    left: -48px;
+}
+.previousBtn:hover{
+    cursor: pointer;
+}
+.nextBtn  {
+    position: absolute;
+    top: 50%;
+    right: -48px;
+}
+.nextBtn:hover{
+    cursor: pointer;
+}
+.img-holder img{
+    z-index: 200;
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin: 1.66%;
+    box-shadow: 1px 10px 25px black;
+}
+.sliderClass div img{
+    width: 80%;
+    height: 50px;
+    margin-left:10%;
+    margin-right: 10%;
+}

@@ -1,0 +1,149 @@
+	
+
+	body {
+		background-color: #333;
+	}
+
+	.animate {
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+	.info-card {
+		width: 100%;
+		border: 1px solid rgb(215, 215, 215);
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	.info-card > img {
+		width: 100px;
+		margin-bottom: 10px;
+	}
+	.info-card .info-card-details,
+	.info-card .info-card-details .info-card-header  {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		bottom: -100%;
+		left: 0;
+		padding: 0 15px;
+		background: rgb(255, 255, 255);
+		text-align: center;
+	}
+	.info-card .info-card-details::-webkit-scrollbar {
+		width: 8px;
+	}
+	.info-card .info-card-details::-webkit-scrollbar-button {
+		width: 8px;
+		height: 0px;
+	}
+	.info-card .info-card-details::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	.info-card .info-card-details::-webkit-scrollbar-thumb {
+		background: rgb(160, 160, 160);
+	}
+	.info-card .info-card-details::-webkit-scrollbar-thumb:hover {
+		background: rgb(130, 130, 130);
+	}           
+
+	.info-card .info-card-details .info-card-header {
+		height: auto;		
+		bottom: 100%;
+		padding: 10px 5px;
+	}
+	.info-card:hover .info-card-details {
+		bottom: 0px;
+		overflow: auto;
+		padding-bottom: 25px;
+	}
+	.info-card:hover .info-card-details .info-card-header {
+		position: relative;
+		bottom: 0px;
+		padding-top: 45px;
+		padding-bottom: 25px;
+	}
+	.info-card .info-card-details .info-card-header h1,	
+	.info-card .info-card-details .info-card-header h3 {
+		color: rgb(62, 62, 62);
+		font-size: 22px;
+		font-weight: 900;
+		text-transform: uppercase;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.info-card .info-card-details .info-card-header h3 {
+		color: rgb(142, 182, 52);
+		font-size: 15px;
+		font-weight: 400;
+		margin-top: 5px;
+	}
+
+/*Footer*/
+
+#myFooter {
+    background-color: #384650;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}*/
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
